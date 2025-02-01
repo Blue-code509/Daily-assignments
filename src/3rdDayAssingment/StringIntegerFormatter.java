@@ -6,6 +6,7 @@ public class StringIntegerFormatter {
     }
 
     public static void main(String[] args) {
-        System.out.println(formatOutput("Hello, Ayushman", 201, 1)); // Output: helloworld, 5
+        System.out.println(formatOutput("Hello, Ayushman", 201, 1)); // Output: helloayushman, 202git push origin main
+
     }
 }
