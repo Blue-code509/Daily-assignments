@@ -8,6 +8,7 @@ public class StringLengthFormatter {
 
         // Processing each string to append its length
         List<String> output = input.stream()
+        .sorted(Comparator.comparingInt(String::length)) // Sort by length
                 .map(s -> s + " (" + s.length() + ")") // Append length in (length) format
                 .collect(Collectors.toList()); // Collect results into a list
 
