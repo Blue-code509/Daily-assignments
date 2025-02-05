@@ -14,9 +14,6 @@ Callable<T> – T call()
 Comparator<T> – int compare(T o1, T o2)
 Consumer<T> – void accept(T t)
 Example:
-java
-Copy
-Edit
 @FunctionalInterface
 interface MyFunctionalInterface {
     void sayHello();  // Only one abstract method
